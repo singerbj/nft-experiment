@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-rm -rf ./images/faces/*
+rm -rf ./images/faces/
+rm -rf ./images/
+mkdir ./images/
+mkdir ./images/faces/
 
 for i in {1..20}
 do
